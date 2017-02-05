@@ -1,0 +1,46 @@
+body{
+	background-color: yellow;
+}
+
+
+#maintitle{
+	text-transform: uppercase;
+	font-size: 30px;
+}
+#heading{
+	
+	text-transform: capitalize;
+}
+/****body content***/
+#chicken >div{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+#chicken{
+	text-transform: capitalize;
+	background-color: grey;
+	border: 2px solid black;
+	font-weight: bolder;
+    padding: 10px;
+}
+#items{
+	
+	color: black;
+	font-weight: bolder;
+}
+	
+}
+#nav-list a{
+	color: black;
+	font-weight: bolder;
+}
+@media(max-width: 767px){
+#chicken{
+	margin: 20px;
+}
+#maintitle{
+	font-size: 5vw;
+}
+}
